@@ -2,29 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="converter">
-        <h1>Temperature Converter</h1>
-        <label for="temperature">Degrees</label>
-        <input type="number" id="temperature" placeholder="Enter temperature">
-       
-        <label for="unit">Type</label>
-        <select id="unit">
-            <option value="Fahrenheit">Fahrenheit</option>
-            <option value="Celsius">Celsius</option>
-            <option value="Kelvin">Kelvin</option>
-        </select>
-       
-        <button onclick="convertTemperature()">Convert</button>
-       
-        <div id="result">Result: </div>
-    </div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <!-- Profile Picture -->
+            <img src="images/profile.jpg" alt="Your Name" class="profile-pic">
 
-    <script src="script.js"></script>
+            <!-- Introduction -->
+            <h1>Khushi Khati</h1>
+            <p>BCA student and Coding enthusiast, Ready to Learn and Grow</p>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <img src="images/icon-facebook.jpeg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="images/icon-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                    <img src="images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Khushi Khati!. I am currently pursuing my Bachelor of computer application(BCA)at the Himalayan Institute OF Technology, where i am in my third year. My passion for technology and innovation dirve me to excel in coding and constantly explore new programming languages and framework.
+                I have always been eager to learn and expand my skill set. I enjoy participating in various coding competitions, both at my college and beyond, to challenge myself and collaborate with like-minded individuals.
+            When I am not coding, I love to express myself through dancing.
+        I am always excited to take on new challenges, learn new things, and continue growing both personally and profesionally.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <!-- Resume Project -->
+                <div class="project-item">
+                    <h3>My Resume</h3>
+                    <p>Below is a link to view or download my professional resume showcasing my skills, education, and experience.</p>
+                    <p><a href="images/resume%20new.pdf" target="_blank" download="resume_new.pdf">Download Resume</a></p>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, feel free to contact me through my social media channels or send me an email.</p>
+            <p>Email: <a href="mailto:yourname@example.com">khatikhushi7@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
 
